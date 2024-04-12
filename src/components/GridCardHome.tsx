@@ -18,7 +18,7 @@ export default function GridCardHome() {
       <div className="row m-5">
         <div className="col-md-6 mb-3">
           <Card sx={{ width: 345 }}>
-            <CardActionArea>
+            <CardActionArea href="/dashboard">
               <Grid item xs={100} className="icon-card-grid-1">
                 <DashboardIcon className="icon-card" />
               </Grid>
@@ -32,8 +32,8 @@ export default function GridCardHome() {
           </Card>
         </div>
         <div className="col-md-6 mb-3">
-          <Card sx={{ width: 345 }}>
-            <CardActionArea>
+          <Card sx={{ width: 345 }} >
+            <CardActionArea href="/sobre-nos">
               <Grid item xs={100} className="icon-card-grid-2">
                 <ManageSearchIcon className="icon-card" />
               </Grid>
